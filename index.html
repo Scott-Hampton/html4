@@ -26,8 +26,8 @@
 				<br>
 		<div class="clearfix">
 				<section>
-					<h2>Basic Information About the Sports</h2>
-					<img src="images/menswaterpolo.jpg" alt="A Canadian player tries to score on the US" width="300" height="150">
+					<h2>Some Info on Kobe Bryant</h2>
+					<img src="images/kobe_bryant.jpg" alt="The Lakers Legend inside of Staples Center" width="300" height="168">
 					<p>Water polo is a grueling yet gratifying competitive sport played between two teams in which players can't touch the bottom of the pool.&nbsp; After four quarters of play, the team that scores the most wins, resulting in teams developing a delicate balance between a mostly conservative, patient offense (outside of <em title="Following a turnover by the opposing offense, the team now in possession of the ball swims fast up the pool to catch the defense out of position for a quick, efficient opportunity at a goal." style="color: darkmagenta">fast breaks</em>) and an aggresive, opportunistic defense.&nbsp; &nbsp;Seven players are in the pool for each team, including one goalie per team.&nbsp; &nbsp;At the less skilled high school levels found throughout most of Texas, the team with the best conditioning and swimming speed will often find themselves victorious.</p>
 				</section>
 
@@ -37,12 +37,43 @@
 				</aside>
 
 				<article>
-				  <h2>Most Successful Countries in Olympic Water Polo</h2>
-					<img src="images/serbiawinning.jpg" alt="Serbia's men winning the gold in 2016" width="300" height="225">
+				  <h2>Some Info on Tim Duncan</h2>
+					<img src="images/timmyd.jpg" alt="Tim Duncan in the midst of an NBA game" width="300" height="200">
 					<p>Although Olympic water polo isn't the only form of international water polo play, it is by far the most broacasted and watched form of water polo across the world.  For the men's teams, water polo first began Olympic play in 1900, and since then, Hungary has accomplished the most compared to every other country's men's teams.  With 15 total medals and 9 gold medals, Hungary has and will always be one of the epicenters of the water polo world.  Italy's squad is second with 8 total medals and 3 gold medals.  Croatia and Serbia have surged in recent years to become two of the best at the sport; Croatia won the gold at London in 2012, and Serbia accomplished the same feat at Rio in 2016.<br><br>
 					Women's Olympic water polo began in 2000, hosted by Sydney, Australia.  Unlike their male counterparts, the US women's team is arguably the best team in the world.  At all 5 Olympics in which women's water polo has been played, the US has medaled at all 5 Games with the following finishes: 1 Bronze (2004), 2 Silvers (2000, 2008), and 2 Golds (2012, 2016).  There are only 3 other countries that have women's teams with multiple Olympic medals: Australia (3 medals), Italy (2), and Russia (2).  It's amazing that Hungary's team haasn't medaled yet, and it's even more astounding that neither Croatia nor Serbia's women's teams have even qualified to compete at the Olympics yet!</p>
 				</article>
 			<br>
+		
+		<video width="600" controls>
+  			<source src="kobeandtimmyvideo.mov" type="video/mp4">
+		</video>
+		
+		<h2 class="header">Input for Each Player</h2>	
+					
+		<form action="/action_page.php">
+			<h3>Coaches</h3>
+			<label for="lakerscoach">Kobe's most famous coach:</label><br>
+			<input type="text" id="lakerscoach" name="lakerscoach" value="Phil Jackson"><br>
+			<label for="spurscoach">Timmy D's most famous coach:</label><br>
+			<input type="text" id="spurscoach" name="spurscoach" value="Gregg Popovich">
+			<br>
+			<h3>Which player was Karl Malone a teammate of at one point?</h3>
+			<input type="radio" id="bryant" name="baller" value="bryant">
+  			<label for="bryant">Bryant</label><br>
+  			<input type="radio" id="duncan" name="baller" value="duncan">
+  			<label for="duncan">Duncan</label><br>
+  			<input type="radio" id="neither" name="baller" value="neither">
+  			<label for="neither">Neither</label>
+			<br>
+			<h3>Which player do you think is greater overall?</h3>
+			<input type="checkbox" id="lakerlegend" name="legend" value="kobe">
+			<label for="lakerlegend">Kobe Bryant</label><br>
+			<input type="checkbox" id="spurslegend" name="legend" value="tim">
+			<label for="spurslegend">Tim Duncan</label><br>
+			<input type="submit" value="Submit">
+			<br><br>
+		</form>
+			
 		</div>
 			<div class="footer">
 					<p>Webpage Creator: Scott Hampton <br>
