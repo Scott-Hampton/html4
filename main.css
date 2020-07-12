@@ -1,17 +1,18 @@
 .div1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+	margin: auto;
     border: 5px solid midnightblue;
     background-color: snow;
-    width: 100%;
+    width: 850px;
     height: 100%;
 }
 
 #wowlookatthisfooter {
-			background-color: lightslategray;
-			color:snow;
-			padding: 40px;
-		}
+	background-color: lightslategray;
+	color:snow;
+	padding: 40px;
+	}
 
 .header, .footer {
     background-color: lightslategray;
@@ -32,8 +33,9 @@
 }
 
 body {
-    background-image: url("images/water.jpg");
-    background-repeat:repeat;
+    background-image: url("images/duncan_two.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
 }
 
 section {
@@ -64,9 +66,9 @@ article {
 }
 
 table.center, th, td {
-			margin-left: auto;
-			margin-right: auto;
-			border: 3px solid black;
-			border-collapse: collapse;
-			padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+	border-collapse: collapse;
+	padding: 10px;
 }
